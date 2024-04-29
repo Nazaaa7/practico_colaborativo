@@ -4,12 +4,8 @@
 #img{
     border-radius: 40px;
 }
-.container{
-    position: relative;
-    display: inline-block;
-    text-align: center;
-}
- .w-100{
+
+.w-100{
     font-family:  "Noto Serif", serif;
     color: aliceblue;
     font-size: 55px;
@@ -27,9 +23,6 @@
     transform: translate(-50%, -50%);
 }
 .texto{
-    position: absolute;
-    top: 64%;
-    left: 28%;
     font-size: 20px;
     font-family: "Ropa Sans", sans-serif;
     color: aliceblue;
@@ -37,4 +30,21 @@
 }
 .card{
     margin: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-items: flex-start;
+    background-image: url("../img/1256129.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.hero div {
+    margin-left: 5%;
+    width: 50%;
 }
